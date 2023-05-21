@@ -1,0 +1,36 @@
+.Info {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: white;
+	line-height: 29px;
+	float:right;
+	padding: 10px;
+	padding-top: 35px;
+	text-decoration:none;
+
+	}
+
+.Logo {
+position: absolute;
+width: 151px;
+height: 48px;
+left: 26px;
+top: 10px;
+font-family: Arial;
+font-size: 40px;
+line-height: 48px;
+color: #00FF94;
+	}
+
+.Slogan{
+position: absolute;
+width: 178px;
+height: 18px;
+left: 26px;
+top: 58px;
+font-family: 'Arial';
+font-size: 15px;
+line-height: 18px;
+color: white;
+}
+
