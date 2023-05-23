@@ -33,4 +33,10 @@ font-size: 15px;
 line-height: 18px;
 color: white;
 }
-
+.AppFont {
+color: white; 
+position: relative;
+font-family: Arial;
+top: 90%;
+font-size: 20px;
+}

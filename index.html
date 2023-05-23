@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<meta charset="utf-8"/>
 
 <body style="background-color: #222222">
 <Title>Foodia</Title>
@@ -8,11 +9,9 @@
 
 <!-- NAVIBAR -->
 <div style="
-position: sticky;
+position: relative;
 width: 100%;
-height: 97px;
-left: 0px;
-top: 0px;
+height: 6em;
 background: #353535;">
 
 <!-- LOGO -->
@@ -30,27 +29,125 @@ A Food Management Tool</a>
 </div>
 </head>
 
+<!-- Grid -->
+<style>
 
-<div>
-<img src="img/photo1.png"
-style="position: relative;
-width: 860px;
-height: 551px;
-left: 18px;
-padding: 20px;">
+
+
+
+ 
+.preview{
+    display:grid;
+    height: 60rem;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    padding: 10px;
+}
+
+.main_image{
+    background-image: url(img/photo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:220%;
+    width: 90%;
+    margin: 20px;
+    border-radius: 5em;
+}
+
+.appication{
+    display: grid;
+    grid-template-rows: 1/2;
+
+}
+
+.app{
+    display: grid;
+    background-color: #353535;
+    grid-template-columns: 35% 30% 30%;
+    height: 30%;
+    width: 35%;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-top-right-radius: 3rem;
+
+}
+
+
+.download{
+    color: #353535;
+    font-family: arial;
+    font-size: 3rem;
+    padding: 10px;
+    padding-left: 50px;
+    background-color:#0e0e0e;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    width: 7em;
+}
+
+
+
+
+.AppImage{
+    height: 100%;
+    padding-right: 20em;
+}
+
+
+.FoodiaIconText{
+    background-color:white;
+    color:#00FF94;
+    font-family:arial;
+    font-weight:bold;
+    font-size:3em;
+    height: 5em;
+    width: 5em;
+    border-radius:1em;
+    text-align: center;
+}
+
+.phone{
+    height: 25%;
+    padding: 20px;
+}
+
+
+</style>
+
+
+
+<div id="container">
+<div class="preview">
+
+<div class="main_image">  </div>
+<div class="appication">
+    <b class="download">DOWNLOAD</b>
+    <div class="app">
+        <div class="phone"><div class="FoodiaIconText" >
+            <div style="padding-top: 40%;">Foodia</div> </div></div>
+        <div class="phone"><img src="img/AndriodLogo.png" class="AppImage"> </div>
+        <div class="phone"><img src="img/Apple-logo.png" class="AppImage"></div>
+
+        </div>
+
+
+            
+</div>
+
+
 
 </div>
-<div style="
-position: absolute;
-width: 766px;
-height: 321px;
-left: 922px;
-top: 125px;
-background: #383838;">
+
+</div>
+</div>
+
+
+
+
 
 </div>
 
-<footer style=" background:black; height: 1000px;">
+
 
 </footer>
 
