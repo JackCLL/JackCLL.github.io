@@ -2,14 +2,18 @@
 <html lang="en">
 <meta charset="utf-8"/>
 
-<body style="background-color: #222222">
+<body style="
+background: url('img/foodpattern.jpg');"></body>"
 <Title>Foodia</Title>
 <head>
 <link href="styles.css" rel="stylesheet" type="text/css">
+<link href="index.css" rel="stylesheet" type="text/css">
+<script src="index.js"></script>
 
 <!-- NAVIBAR -->
 <div style="
 position: relative;
+top:0;
 width: 100%;
 height: 6em;
 background: #353535;">
@@ -28,119 +32,56 @@ A Food Management Tool</a>
 
 </div>
 </head>
-
-<!-- Grid -->
-<style>
- 
-.preview{
-    display:grid;
-    height: 60rem;
-    grid-template-columns: 60% 40%;
-    max-width: 200em;
-    padding: 10px;
-    margin: 0 auto;
-}
-
-.main_image{
-    background-image: url(img/photo1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 90%;
-    margin: 20px;
-    border-radius: 5em;
-}
-
-.appication{
-    display: grid;
-    grid-template-rows: 1/2;
-
-}
-
-.app{
-    display: grid;
-    background-color: #353535;
-    grid-template-columns: 35% 30% 30%;
-    height: 30%;
-    width: 35%;
-    border-bottom-left-radius: 3rem;
-    border-bottom-right-radius: 3rem;
-    border-top-right-radius: 3rem;
-
-}
-
-
-.download{
-    color: white;
-    font-family: arial;
-    font-size: 3rem;
-    padding: 10px;
-    padding-left: 50px;
-    background-color:#0e0e0e;
-    border-top-left-radius: 3rem;
-    border-top-right-radius: 3rem;
-    width: 7em;
-}
-
-.AppImage{
-    height: 100%;
-    padding-right: 20em;
-}
-
-
-.FoodiaIconText{
-    background-color:white;
-    color:#00FF94;
-    font-family:arial;
-    font-weight:bold;
-    font-size:3em;
-    height: 5em;
-    width: 5em;
-    border-radius:1em;
-    text-align: center;
-}
-
-.phone{
-    height: 25%;
-    padding: 20px;
-}
-
-
-</style>
-
-
-
-<div id="container">
-<div class="preview">
-
-<div class="main_image">  </div>
-<div class="appication">
+ <div class="preview"> 
+  <div class="main_image"> <div class="main_image_text">Here at Foodia we help the people think less about food and help them with their day
+    close you would get to a personal butler. The people at Foodia are committed to the 
+    ease of fridge organization as our family fridges have been more organized.</div> </div>
+    <div class="appication">
     <b class="download">DOWNLOAD</b>
     <div class="app">
-        <div class="phone"><div class="FoodiaIconText" >
-            <div style="padding-top: 40%;">Foodia</div> </div></div>
-        <div class="phone"><img src="img/AndriodLogo.png" class="AppImage"> </div>
-        <div class="phone"><img src="img/Apple-logo.png" class="AppImage"></div>
+        <div class="phone"><div class="FoodiaIconText" > <div style="padding-top: 35%;">FOODIA</div> </div>
+        <b class="intrestfont" style="padding:10px; padding-left:1.5em;">Available on Andriod and Apple</b></div>
+            <div class="phone"><img src="img/AndriodLogo.png" class="AppImage"></div>
+            <div class="phone"><img src="img/Apple-logo.png" class="AppImage"></div>
+    
+    </div>
+    
+<div class="SlideContainer">
+    <div class="Slide">
+    <img src="img/photo2.jpg" id="lastimage"> <!-- puts image behind the first at the start-->
+    <img src="img/photo1.png" id="firstimage" >
+    <img src="img/photo3.png" >
 
-        </div>
+    <button id="Next"> </button>
+    <button id="Back"> </button>
 
 
-            
+    
+</div>
+</div>
+ </div>
+
+
+
+<div class="intrestgrid">
+<div class="intrestbox">
+<div class="intrest"> <img src="img/photo3.jpg" style=" height: 10em;">
+   <b class="intrestfont"> Here what a mother of 5 have to say</b> 
+   <a class="intrestfont" style="font-size: 1em; top:45%;" >Thanks to Foodia I haven’t have to think of what I am going to buy.
+    Usually I would make my kid what they wanted which wasn’t healthy
+    but now me and my kids would just pick from the menu to eat.
+</a>
+</div>
 </div>
 
-
-
+<div class="why"> 
+    Here at FOODIA we design food managers for your home fridge.
+    Our product keeps a record of your storage inside your fridge, showing information that you should be aware about. Our program keeps a hold of your food expiry date, nutrition, trends and other information.  We help you ease up on what to buy and help you with your nutrition goals. Our product would hold recipes, food price trend and other information you would need in your grocery shopping journey. Our program could show you what ingredient is crucial to buy or what to not buy and manage your budget.
+    <h1></h1>
+    You can use our product from our app or our fridge Add-On. 
+    Our fridge add-on can automatically display your ingredient and amount we you put it in or take it out.
 </div>
-
 </div>
-</div>
-
-
-
-
-
-</div>
-
-
 
 </footer>
 
