@@ -33,6 +33,7 @@ font-size: 15px;
 line-height: 18px;
 color: white;
 }
+
 .AppFont {
 color: white; 
 position: relative;
@@ -41,3 +42,9 @@ top: 90%;
 font-size: 20px;
 }
 
+.BottomInformation {
+	padding:2em;
+	background-color: rgb(53, 53, 53);
+	Width: 100%;
+	Height: 30em;
+}

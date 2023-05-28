@@ -2,13 +2,16 @@
 <html lang="en">
 <meta charset="utf-8"/>
 
-<body style="
-background: url('img/foodpattern.jpg');"></body>"
+<body style="background-color:rgb(77, 77, 77);"></body>
 <Title>Foodia</Title>
 <head>
 <link href="styles.css" rel="stylesheet" type="text/css">
 <link href="index.css" rel="stylesheet" type="text/css">
 <script src="index.js"></script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
 <!-- NAVIBAR -->
 <div style="
@@ -46,16 +49,50 @@ A Food Management Tool</a>
     
     </div>
     
-<div class="SlideContainer">
-    <div class="Slide">
-    <img src="img/photo2.jpg" id="lastimage"> <!-- puts image behind the first at the start-->
-    <img src="img/photo1.png" id="firstimage" >
-    <img src="img/photo3.png" >
 
-    <button id="Next"> </button>
-    <button id="Back"> </button>
+    <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="img/photo1.png" alt="" style="width: 100%;"></div>
+      <div class="swiper-slide"> <img src="img/photo2.png" alt="" style="width: 100%;">></div>
+      <div class="swiper-slide"><img src="img/photo3.jpg" alt=""></div>
+
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+  </div>
+
+<script type="module"> import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js' </script>
+      
+ <script>  
+
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
 
 
+});
+</script>
+      
     
 </div>
 </div>
@@ -72,9 +109,21 @@ A Food Management Tool</a>
     but now me and my kids would just pick from the menu to eat.
 </a>
 </div>
+<div class="intrest"> <img src="img/photo2.jpg" style=" height: 10em;">
+   <b class="intrestfont"> Here's what a Neuro-scientist have to say.</b> 
+   <a class="intrestfont" style="font-size: 1em; top:45%;" >Usually when people go to the grocery store they think of what's
+delicious to make instead of what they need in their body. That's
+why peoples health have been declining for decade. Foodia is a 
+great way to mange your food habits and makes you compile with
+eating healthier food.
+</a>
+</div>
+
 </div>
 
 <div class="why"> 
+   <b style=" font-size: 2em;"> Why FOODIA </b>
+    <h1></h1>
     Here at FOODIA we design food managers for your home fridge.
     Our product keeps a record of your storage inside your fridge, showing information that you should be aware about. Our program keeps a hold of your food expiry date, nutrition, trends and other information.  We help you ease up on what to buy and help you with your nutrition goals. Our product would hold recipes, food price trend and other information you would need in your grocery shopping journey. Our program could show you what ingredient is crucial to buy or what to not buy and manage your budget.
     <h1></h1>
@@ -83,7 +132,11 @@ A Food Management Tool</a>
 </div>
 </div>
 
-</footer>
+<footer class="BottomInformation">
+<div class="AppFont" style="top:30%; float:left; font-size:2em; text-align:left; width: 10%;">Licence by 
+<img src="img/NZNF.png"></div>
+    </footer>
+
 
 
 

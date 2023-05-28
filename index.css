@@ -1,15 +1,11 @@
 
-   div{
-    border-style:dotted;
-    color: #00FF94;
-   }
 
    .preview{
        display:grid;
        grid-template-columns: 60% 40%;
        grid-template-rows: 100%;
        padding: 20px;
-       width: 120em;
+       max-width: 120em;
        height: 700px;
        margin: 0 auto;
    }
@@ -91,44 +87,44 @@
        padding: 20px;
    }
    
-   .SlideContainer{
+   .swiper{
        background-color: #353535;
-       position: absolute;
-       float: right;
+       position: relative;
        width:40em;
        height:20em;
-       top: 55%;
+       right: 58em;
+       bottom:53em;
        border-radius: 3em;
-  
+
    }
    
 
-   .Slide{
+   .swiper-wrapper{
     display:flex;
-    position: relative;
+    position: absolute;
     height: 20em;
     width: 100%;
     border-radius: 3em;
    }
+
+   .swiper-slide{
+    width:100%;
+   }
    
-   #Next{
+   .wiper-button-next{
     position: absolute;
-    background-color: white;
     cursor: pointer;
     height: 2em;
     width: 2em;
-    border-radius: 1em;
     left:95%;
     top:50%;
    }
 
-   #Back{
+   .swiper-button-prev{
     position: absolute;
-    background-color: white;
     cursor: pointer;
     height: 2em;
     width: 2em;
-    border-radius: 1em;
     right:95%;
     top:50%;
    }
@@ -146,7 +142,7 @@
    .intrestbox{
        background-color:#353535;
        width: 50em;
-       height:50em;
+       height:30em;
        margin: 0% auto;
        padding: 1em;
    }
@@ -170,7 +166,7 @@
    .why{
        background-color: #353535;
        width: 35em;
-       height: 50em;
+       height: 20em;
        float: right;
        padding: 1em;
        color: white;
