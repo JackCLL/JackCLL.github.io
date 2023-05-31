@@ -1,3 +1,4 @@
+
 .Info {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 24px;
@@ -38,7 +39,6 @@ color: white;
 color: white; 
 position: relative;
 font-family: Arial;
-top: 90%;
 font-size: 20px;
 }
 
@@ -46,5 +46,19 @@ font-size: 20px;
 	padding:2em;
 	background-color: rgb(53, 53, 53);
 	Width: 100%;
-	Height: 30em;
+	position: absolute;
+	height:10em;
 }
+
+.SoicalImage {
+	height:5em;
+	padding:1em;
+}
+
+.At {
+	position: absolute;
+	font-size: 2em;
+	left:6%;
+	bottom: 100%;
+}
+

@@ -1,10 +1,69 @@
 
+.App {
+  width: 70em;
+  height: 32em;
+  background-color:rgb(129, 129, 129);
+  margin: 0% auto;
+}
+
+.AppBox {
+  float: right;
+  width: 23em;
+  height: 13em;
+  padding:1em;
+  background-color:rgb(129, 129, 129);
+  color:white;
+  font-family: arial;
+}
+
+.AppInfo{
+  width: 40em;
+  height: 15em;
+  background-color:rgb(110, 110, 110);
+  margin: 0% auto;
+}
+
+.AppIcon{
+  padding:2em;
+  height:10em;
+}
+.AppImage {
+  height: 30em;
+  padding:3px;
+}
+
+.partner {
+  padding: 30px;
+  width: 40em;
+  height: 15em;
+  background-color:rgb(66, 66, 66);
+  margin: 0% auto;
+  
+}
+
+.iconpartner {
+  padding: 23px;
+  height: 10em;
+  margin: 0% auto;
+}
+
+.ProductText {
+  color:white;
+  font-family:arial;
+  font-size: 2em;
+  text-align: center;
+  background-color:rgb(37, 37, 37);
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+  width: 10em;
+  margin: 0% auto;
+}
 
  .front-grid {
   background-color: rgb(37, 37, 37);
   position: relative;
-  height:50em;
-  width: 90em;
+  height:37em;
+  width: 75em;
   margin: 0 auto;
  }
  
@@ -36,8 +95,7 @@
     height: 33em;
     max-width: 16em;
     padding: 1em;
-    background-color:white;
-    border-radius: 10px;
+
   }
   
 
@@ -60,3 +118,42 @@
     font-size: 35px;
     cursor: pointer;
   } 
+
+  .PartnerText {
+    color:white;
+    font-family:arial;
+    font-size: 2em;
+    text-align: center;
+  }
+
+
+  
+/**gallery margins**/  
+ul.gallery{    
+  margin-left: 3vw;     
+  margin-right:3vw;  
+  }    
+  
+  .zoom {      
+  -webkit-transition: all 0.35s ease-in-out;    
+  -moz-transition: all 0.35s ease-in-out;    
+  transition: all 0.35s ease-in-out;     
+  cursor: -webkit-zoom-in;      
+  cursor: -moz-zoom-in;      
+  cursor: zoom-in;  
+  }     
+  
+  .zoom:hover,  
+  .zoom:active,   
+  .zoom:focus {
+  /**adjust scale to desired size, 
+  add browser prefixes**/
+  -ms-transform: scale(1.5);    
+  -moz-transform: scale(1.5);  
+  -webkit-transform: scale(1.5);  
+  -o-transform: scale(1.5);  
+  transform: scale(1.5);    
+  position:relative;      
+  z-index:100;  
+  }
+  
