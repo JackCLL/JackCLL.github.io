@@ -1,4 +1,120 @@
 
+/** Product Title **/
+.ProductText {
+  color:white;
+  font-family:arial;
+  font-size: 2em;
+  text-align: center;
+  background-color:rgb(160, 160, 138);
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+  width: 10em;
+  margin: 0% auto;
+}
+
+
+.front-grid {
+  background-color: rgb(160, 160, 138);
+  position: relative;
+  height:37em;
+  width: 75em;
+  margin: 0 auto;
+ }
+ 
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  display: block;
+  float: right;
+  height: 11em;
+  width: 100%;
+}
+
+/* Style the images inside the grid */
+.column img {
+  height:10em;
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+.row {
+  position: absolute;
+  grid-template-rows: auto auto auto;
+  margin: 0% auto;
+  left: 77%;
+  height: 33em;
+  max-width: 16em;
+  padding: 1em;
+
+}
+
+
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  max-height:auto;
+  max-width: auto;
+  position: absolute;
+  display: none;
+  left: 30px;
+  top: 15px;
+}
+
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+} 
+
+.PartnerText {
+  color:white;
+  font-family:arial;
+  font-size: 2em;
+  text-align: center;
+}
+
+
+
+/* gallery margins */  
+ul.gallery{    
+margin-left: 3vw;     
+margin-right:3vw;  
+}    
+
+.zoom {      
+-webkit-transition: all 0.35s ease-in-out;    
+-moz-transition: all 0.35s ease-in-out;    
+transition: all 0.35s ease-in-out;     
+cursor: -webkit-zoom-in;      
+cursor: -moz-zoom-in;      
+cursor: zoom-in;  
+}     
+
+.zoom:hover,  
+.zoom:active,   
+.zoom:focus {
+/**adjust scale to desired size, 
+add browser prefixes**/
+-ms-transform: scale(1.5);    
+-moz-transform: scale(1.5);  
+-webkit-transform: scale(1.5);  
+-o-transform: scale(1.5);  
+transform: scale(1.5);    
+position:relative;      
+z-index:100;  
+}
+
+/* App Showcase */
 .App {
   width: 70em;
   height: 32em;
@@ -47,115 +163,4 @@
   margin: 0% auto;
 }
 
-.ProductText {
-  color:white;
-  font-family:arial;
-  font-size: 2em;
-  text-align: center;
-  background-color:rgb(160, 160, 138);
-  border-top-left-radius: 3rem;
-  border-top-right-radius: 3rem;
-  width: 10em;
-  margin: 0% auto;
-}
 
- .front-grid {
-  background-color: rgb(160, 160, 138);
-  position: relative;
-  height:37em;
-  width: 75em;
-  margin: 0 auto;
- }
- 
- /* The grid: Four equal columns that floats next to each other */
- .column {
-    display: block;
-    float: right;
-    height: 11em;
-    width: 100%;
-  }
-  
-  /* Style the images inside the grid */
-  .column img {
-    height:10em;
-    opacity: 0.8;
-    cursor: pointer;
-    border-radius: 10px;
-  }
-  
-  .column img:hover {
-    opacity: 1;
-  }
-
-  .row {
-    position: absolute;
-    grid-template-rows: auto auto auto;
-    margin: 0% auto;
-    left: 77%;
-    height: 33em;
-    max-width: 16em;
-    padding: 1em;
-
-  }
-  
-
-  
-  /* The expanding image container (positioning is needed to position the close button and the text) */
-  .container {
-    max-height:auto;
-    max-width: auto;
-    position: absolute;
-    display: none;
-    left: 30px;
-    top: 15px;
-  }
-  
-  
-  /* Closable button inside the image */
-  .closebtn {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    color: white;
-    font-size: 35px;
-    cursor: pointer;
-  } 
-
-  .PartnerText {
-    color:white;
-    font-family:arial;
-    font-size: 2em;
-    text-align: center;
-  }
-
-
-  
-/* gallery margins */  
-ul.gallery{    
-  margin-left: 3vw;     
-  margin-right:3vw;  
-  }    
-  
-  .zoom {      
-  -webkit-transition: all 0.35s ease-in-out;    
-  -moz-transition: all 0.35s ease-in-out;    
-  transition: all 0.35s ease-in-out;     
-  cursor: -webkit-zoom-in;      
-  cursor: -moz-zoom-in;      
-  cursor: zoom-in;  
-  }     
-  
-  .zoom:hover,  
-  .zoom:active,   
-  .zoom:focus {
-  /**adjust scale to desired size, 
-  add browser prefixes**/
-  -ms-transform: scale(1.5);    
-  -moz-transform: scale(1.5);  
-  -webkit-transform: scale(1.5);  
-  -o-transform: scale(1.5);  
-  transform: scale(1.5);    
-  position:relative;      
-  z-index:100;  
-  }
-  

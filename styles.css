@@ -12,6 +12,7 @@ height: 6em;
 background: #98a18f;
 }
 
+/* Page Name */
 .Info {
 font-family: Arial, Helvetica, sans-serif;
 font-size: 24px;
@@ -35,6 +36,7 @@ line-height: 48px;
 color: #00FF94;
 	}
 
+/* Under Logo */
 .Slogan{
 position: absolute;
 width: 178px;
@@ -46,7 +48,7 @@ font-size: 15px;
 line-height: 18px;
 color: white;
 }
-
+/* Main font type used */
 .AppFont {
 color: white; 
 position: relative;
@@ -62,6 +64,7 @@ position: absolute;
 height:10em;
 }
 
+/* Sponsor */
 .Licence {
 float:right;
 right: 15em;
@@ -72,17 +75,20 @@ position: relative;
 top:15%;
 }
 
+/* Soical Media Icon */
 .SoicalImage {
 height:5em;
 padding:1em;
 }
 
+/* @ */
 .At {
 position: absolute;
 font-size: 2em;
 bottom: 100%;
 }
 
+/* Both @ and Social Media Icon */
 .Soical {
 position: relative; 
 display:flex; 
