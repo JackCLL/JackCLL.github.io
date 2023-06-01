@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 
 
-<Title>Foodia</Title>
+<Title>Product</Title>
 <head>
+
 <html lang="en">
 <meta charset="utf-8"/>
+<body>
 
 <link href="styles.css" rel="stylesheet" type="text/css">
 <link href="Product.css" rel="stylesheet" type="text/css">
-<body style="background-color:rgb(77, 77, 77);">
-<!-- NAVIBAR -->
-<div style="
-position: relative;
-top:0;
-width: 100%;
-height: 6em;
 
-background: #353535;">
+<!-- NAVIBAR -->
+<div class="Navibar">
 
 <!-- LOGO -->
 <a class="Logo">
@@ -25,7 +21,8 @@ background: #353535;">
 <a class="Slogan">
 A Food Management Tool</a>
 
-<a class="Info" href="Help.html">HELP</a>
+<!-- Page Select -->
+<a class="Info" href="About.html">ABOUT</a>
 <a class="Info" style="color: #00FF94;" href="Product.html"><b>PRODUCT</b></a>
 <a class="Info" href="index.html">HOME</a>
 
@@ -33,36 +30,38 @@ A Food Management Tool</a>
 </head>
 <h1></h1>
 
+<!-- Product Title -->
 <div class="ProductText"><b>FRIDGE ADD-ON</b></div>
- <!-- The grid: four columns -->
+
+<!-- Preview Image -->
  <div class="front-grid">
 
+<!-- Side Image -->
  <div class="row" style="width:auto; margin: 0 auto;">
     <div class="column">
-      <img src="img/photo1.png" alt="" onclick="myFunction(this);">
+      <img src="img/photo1.png"  onclick="myFunction(this);">
     </div>
     <div class="column">
-      <img src="img/photo2.png" alt="" onclick="myFunction(this);">
+      <img src="img/photo2.png"  onclick="myFunction(this);">
     </div>
     <div class="column">
-      <img src="img/butterchicken.jpeg" alt="" onclick="myFunction(this);">
+      <img src="img/Photo4.png"  onclick="myFunction(this);">
     </div>
   </div>
   
+
   <!-- The expanding image container -->
   <div class="container" style="margin: auto;">
     <!-- Close the image -->
     <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  
     <!-- Expanded image -->
     <img id="expandedImg" style="width:55em">
-  
     <!-- Image text -->
     <div id="imgtext"></div>
   </div> 
 
-</div>
 
+</div>
   <script>
   function myFunction(imgs) {
   // Get the expanded image
@@ -78,34 +77,68 @@ A Food Management Tool</a>
 } 
   </script>
 
-<h1></h1>
 
+
+<h1 style="height: 150px;"></h1>
+
+
+
+<!-- App Info -->
 <div class="AppInfo">
-<img src="img/AppIcon.png" class="AppIcon">
-
-
-<div class="AppBox">
-  <div style ="font-weight:bold; font-size:2em;">About</div>
-  This Application is used to organize your fridge storage and help you make diet and shopping decisions while keeping data of your nutrients and buying habits. The App would notify you when food gets spoiled or certain product prices inflated in order for you to make the correct grocery shopping decision.
-</div>
+ <img src="img/AppIcon.png"  alt="App Icon" class="AppIcon">
+ <div class="AppBox">
+   <div style ="font-weight:bold; font-size:2em;">Foodia App</div>
+    This Application is used to organize your fridge storage and help you make diet and shopping decisions while keeping data of your nutrients and buying habits. The App would notify you when food gets spoiled or certain product prices inflated in order for you to make the correct grocery shopping decision.
+ </div>
 </div>
 
 
+
+<!-- App Image -->
 <div class="App gallery">
-<img src="img/Fridge TV system.png" class="AppImage zoom">
-<img src="img/Fridge TV Recipes.png" class="AppImage zoom">
-<img src="img/Fridge Discount.png" class="AppImage zoom">
-<img src="img/Fridge Static.png" class="AppImage zoom">
+ <img src="img/Fridge TV system.png" alt="App Image 1" class="AppImage zoom">
+ <img src="img/Fridge TV Recipes.png" alt="App Image 2"  class="AppImage zoom">
+ <img src="img/Fridge Discount.png" alt="App Image 3"  class="AppImage zoom">
+ <img src="img/Fridge Static.png" alt="App Image 4"  class="AppImage zoom">
 </div>
 
-<h1></h1>
+
+<h1 style="height: 150px;"></h1>
+
+
+<!-- Partnered Store -->
 <div class="partner">
-<div class="PartnerText"> Lastest Update From Partnered Store</div>
-<img src="img/PaknSave.png" class="iconpartner">
-<img src="img/Countdown.jpeg" class="iconpartner">
-<img src="img/New_World_logo.jpg" class="iconpartner">
+ <div class="PartnerText"> Lastest Update From Partnered Store</div>
+  <img src="img/PaknSave.png" alt="PaknSave" class="iconpartner">
+  <img src="img/Countdown.jpeg"  alt="Countdown" class="iconpartner">
+  <img src="img/New_World_logo.jpg" alt="New World" class="iconpartner">
 </div>
 
+<h1 style="height: 160px;"></h1>
+
+<!-- Footer -->
+<footer>
+ <div class="AppFont Licence">
+ <div>Licence by</div>
+<img src="img/NZNF.png" alt="NZ Nutrition Foundation"> </div>
+
+<!-- Contact -->
+<div class="AppFont" style="position: absolute; bottom: 3em;">Contact
+  <div>+64 31 204 5020</div>
+  <div>Info@Foodia.com</div>
+  <div>Business@Foodia.com</div>
+</div>
+
+<!-- Soicals -->
+ <div class="Soical">
+  <div class="AppFont At">@Foodia</div>
+   <a><img src="img/Instagram.png" alt="Instagram" class="SoicalImage"></a>
+   <a><img src="img/Twitter.png" alt="Twitter" class="SoicalImage"></a>
+   <a><img src="img/Youtube.png" alt="Youtube"class="SoicalImage"></a>
+ </div>
+
+</footer>
+ 
 
 
 </body>

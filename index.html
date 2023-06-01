@@ -1,28 +1,23 @@
 <!DOCTYPE html>
 
-<Title>Foodia</Title>
+<Title>Home</Title>
 <head>
   
-  <html lang="en">
-    <meta charset="utf-8"/>
+<html lang="en">
+<meta charset="utf-8"/>
 
-<body style="background-color:rgb(77, 77, 77); overflow-x:hidden;">
+<body>
 
+<!--Css Style-->
 <link href="styles.css" rel="stylesheet" type="text/css">
 <link href="index.css" rel="stylesheet" type="text/css">
-<script src="index.js"></script>
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
 <!-- NAVIBAR -->
-<div style="
-position: relative;
-top:0;
-width: 100%;
-height: 6em;
-background: #353535;">
+<div class="Navibar">
 
 <!-- LOGO -->
 <a class="Logo">
@@ -31,7 +26,8 @@ background: #353535;">
 <a class="Slogan">
 A Food Management Tool</a>
 
-<a class="Info" href="Help.html">HELP</a>
+<!-- Page Select -->
+<a class="Info" href="About.html">ABOUT</a>
 <a class="Info" href="Product.html">PRODUCT</a>
 <a class="Info" style="color: #00FF94;" href="index.html"><b>HOME</b></a>
 
@@ -39,17 +35,22 @@ A Food Management Tool</a>
 </head>
 
 <h1 style="height:2em;"></h1>
+
+<!-- Container -->
  <div class="preview"> 
+
   <div class="main_image"> <div class="main_image_text">Here at Foodia we help the people think less about food and help them with their day
     close you would get to a personal butler. The people at Foodia are committed to the 
     ease of fridge organization as our family fridges have been more organized.</div> </div>
-    <div class="appication">
-    <b class="download">DOWNLOAD</b>
+  <div class="appication">
+
+<b class="download">DOWNLOAD</b>
+
     <div class="app">
-      <div class="phone"><img src="img/AppIcon.png" ></div>
+      <div class="phone"><img src="img/AppIcon.png" alt="App Icon" ></div>
       <b class="intrestfont" style="padding:5px; padding-left: 14em; top: 38%; font-size: 1.3em;">Available on Andriod and Apple</b>
-            <div class="phone"><img src="img/AndriodLogo.png" class="AppImage"></div>
-            <div class="phone"><img src="img/Apple-logo.png" class="AppImage"></div>
+      <div class="phone"><img src="img/AndriodLogo.png" class="AppImage" alt="Andriod Logo"></div>
+      <div class="phone"><img src="img/Apple-logo.png" class="AppImage" alt="Apple Logo"></div>
     
     </div>
     
@@ -59,9 +60,9 @@ A Food Management Tool</a>
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
       <!-- Slides -->
-      <div class="swiper-slide"><img src="img/photo1.png" alt="" style="width: 100%;"></div>
-      <div class="swiper-slide"> <img src="img/photo2.png" alt="" style="width: 100%;">></div>
-      <div class="swiper-slide"><img src="img/photo3.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/Stock5.jpg" alt="Man Open Fridge" style="width: 100%;"></div>
+      <div class="swiper-slide"> <img src="img/Stock4.jpg" alt="Women Shopping" style="width: 100%;">></div>
+      <div class="swiper-slide"><img src="img/StockPhone3.jpg" alt="Foodia App On Phone" style="width: 100%;"></div>
 
     </div>
     <!-- If we need pagination -->
@@ -73,10 +74,9 @@ A Food Management Tool</a>
   
   </div>
 
-<script type="module"> import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js' </script>
-      
- <script>  
 
+<script type="module"> import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js' </script>
+ <script>  
 const swiper = new Swiper('.swiper', {
   // Optional parameters
   direction: 'horizontal',
@@ -95,18 +95,19 @@ const swiper = new Swiper('.swiper', {
 
 
 });
+
 </script>
       
     
 </div>
 </div>
- </div>
 
 <h1 style="height: 5em;"></h1>
 
+<!-- Comment 1-->
 <div class="intrestgrid">
 <div class="intrestbox">
-<div class="intrest"> <img src="img/photo3.jpg" style=" height: 10em;">
+<div class="intrest"> <img src="img/photo3.jpg" alt="Family" style=" height: 10em;">
    <b class="intrestfont"> Here what a mother of 5 have to say</b> 
    <a class="intrestfont" style="font-size: 1em; top:45%;" >Thanks to Foodia I haven’t have to think of what I am going to buy.
     Usually I would make my kid what they wanted which wasn’t healthy
@@ -116,9 +117,9 @@ const swiper = new Swiper('.swiper', {
 </div>
 
 
-<!-- Comments -->
+<!-- Comments 2-->
 <div class="intrest">
-  <img src="img/photo2.jpg" style=" height: 10em;">
+  <img src="img/photo2.jpg" alt-="Smart Guy" style=" height: 10em;">
   <b class="intrestfont"> Here what a Physiologist have to say</b>
 <a class="intrestfont" style="font-size: 1em; top:45%;" >
 why peoples health have been declining for decade. Foodia is a 
@@ -147,37 +148,40 @@ eating healthier food.
 
 <!-- Location -->
 <div class="Map">
-<div class="MapText">
-  Wellington
-  <div style="color:white; font-size:30px;">Locally based in New Zealand</div>
+ <div class="MapText">
+   Wellington
+   <div style="color:white; font-size:30px;">Locally based in New Zealand</div>
   </div>
-  </div>
+</div>
 
 
+
+<h1 style="height: 160px;"></h1>
 
 
 <!-- Footer -->
-  <h1 style="height: 10em;"></h1>
-<footer class="BottomInformation">
-<div class="AppFont" style="left:80em; font-size:1em; text-align:left; width: 10%; position: absolute;">Licence by 
-<img src="img/NZNF.png"></div>
+<footer>
+ <div class="AppFont Licence">
+ <div>Licence by</div>
+<img src="img/NZNF.png" alt="NZ Nutrition Foundation"> </div>
 
 <!-- Contact -->
 <div class="AppFont" style="position: absolute; bottom: 3em;">Contact
   <div>+64 31 204 5020</div>
   <div>Info@Foodia.com</div>
   <div>Business@Foodia.com</div>
-  </div>
+</div>
 
 <!-- Soicals -->
-<div style="position: relative; display:flex; left: 35em; top: 2em;">
+ <div class="Soical">
   <div class="AppFont At">@Foodia</div>
-  <a><img src="img/Instagram.png" class="SoicalImage"></a>
-  <a><img src="img/Twitter.png" class="SoicalImage"></a>
-  <a><img src="img/Youtube.png" class="SoicalImage"></a>
-  </div>
-    </footer>
+   <a><img src="img/Instagram.png" alt="Instagram" class="SoicalImage"></a>
+   <a><img src="img/Twitter.png" alt="Twitter" class="SoicalImage"></a>
+   <a><img src="img/Youtube.png" alt="Youtube"class="SoicalImage"></a>
+ </div>
+
+</footer>
 
 
-  </body>
+</body>
 </html>

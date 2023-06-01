@@ -2,7 +2,7 @@
 .App {
   width: 70em;
   height: 32em;
-  background-color:rgb(129, 129, 129);
+  background-color:rgb(160, 160, 138);
   margin: 0% auto;
 }
 
@@ -11,7 +11,7 @@
   width: 23em;
   height: 13em;
   padding:1em;
-  background-color:rgb(129, 129, 129);
+  background-color:rgb(160, 160, 138);
   color:white;
   font-family: arial;
 }
@@ -19,7 +19,7 @@
 .AppInfo{
   width: 40em;
   height: 15em;
-  background-color:rgb(110, 110, 110);
+  background-color:rgb(160, 160, 138);
   margin: 0% auto;
 }
 
@@ -36,7 +36,7 @@
   padding: 30px;
   width: 40em;
   height: 15em;
-  background-color:rgb(66, 66, 66);
+  background-color:rgb(160, 160, 138);
   margin: 0% auto;
   
 }
@@ -52,7 +52,7 @@
   font-family:arial;
   font-size: 2em;
   text-align: center;
-  background-color:rgb(37, 37, 37);
+  background-color:rgb(160, 160, 138);
   border-top-left-radius: 3rem;
   border-top-right-radius: 3rem;
   width: 10em;
@@ -60,7 +60,7 @@
 }
 
  .front-grid {
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(160, 160, 138);
   position: relative;
   height:37em;
   width: 75em;
@@ -106,6 +106,8 @@
     max-width: auto;
     position: absolute;
     display: none;
+    left: 30px;
+    top: 15px;
   }
   
   
@@ -128,7 +130,7 @@
 
 
   
-/**gallery margins**/  
+/* gallery margins */  
 ul.gallery{    
   margin-left: 3vw;     
   margin-right:3vw;  

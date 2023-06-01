@@ -1,0 +1,26 @@
+.TeamMember {
+    height: 25em;
+    width: 50em;
+    border-radius: 2em;
+    background-color:rgb(160, 160, 138);
+    padding: 3em;
+    margin: 0% auto;
+}
+
+.TeamImage {
+    position: relative;
+    height: 10em;
+    border-radius: 2em;
+    border-color: white;
+    border-style:inset;
+}
+
+.TitleTeam {
+    Text-align:center; 
+    width:10em;
+    Font-size:3em; 
+    padding:10px;
+    border-top-left-radius: 3em;
+    border-top-right-radius: 3em;
+    background-color:rgb(160, 160, 138);
+}
